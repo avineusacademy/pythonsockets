@@ -1,0 +1,9 @@
+@startuml
+
+class vehicle :
+     def __init__(self, color, model, wheels):
+        self.color = color
+        self.model = model
+        self.wheels = wheels
+
+@enduml
